@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/blueFON">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Geometr_calc"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="60dp"
+        />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/titul" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/res_vich"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/name_fig"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext"
+        android:hint="@string/Name_fig"
+        android:inputType="text"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="@string/Result"
+        android:inputType="text"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="15dp"
+        android:paddingStart="125dp"/>
+
+    <Button
+        android:id="@+id/buttonReg2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/regbutton"
+        android:text="@string/Reg"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

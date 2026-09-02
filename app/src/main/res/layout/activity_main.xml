@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/blueFON">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Geometr_calc"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="60dp"
+        />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/titul" />
+
+    <EditText
+        android:id="@+id/Login"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext"
+        android:hint="@string/login"
+        android:inputType="textEmailAddress"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/regbutton"
+        android:text="@string/Reg"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

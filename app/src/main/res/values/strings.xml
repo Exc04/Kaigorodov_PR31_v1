@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kaigorodov_PR_31_v1</string>
+    <string name="Geometr_calc">Геометрический калькулятор</string>
+    <string name="login">Введите логин</string>
+    <string name="password">Введите пароль</string>
+    <string name="Reg">Регистрация</string>
+    <string name="Vibor">Выбор фигуры</string>
+    <string name="Vib_fig">Выберите фигуру</string>
+    <string name="Values">Введите данные через пробел</string>
+    <string name="But_Calc">Выполнить расчет</string>
+    <string name="res_vich">Результат вычесления</string>
+    <string name="Name_fig">Название выбранной фигуры</string>
+    <string name="Result">РЕЗУЛЬТАТ</string>
+
+</resources>
